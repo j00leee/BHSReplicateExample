@@ -36,21 +36,25 @@
 			#content{
 				font-weight: bold;
 				max-width: 550px;
-				display:inline-block;
+				display: inline-block;
+				display: table-cell;
+			}
+			#sidebar{
+				max-width: 250px;
+				float: right
+				display: inline-block;
 				display: table-cell;
 			}
 			#side{
-				max-width: 250px;
-				display: inline-block;
+
 				border: 2px solid orange;
 				display: table-cell;
 			}
 			#content2{
+				max-width: 550px;
 				display: inline-block;
-				display: table-cell;
 			}
-			#side2{
-				max-width: 250px;
+			#main{
 				display: inline-block;
 			}
 			.red{
@@ -83,6 +87,8 @@
 			}
 			#content3 a{
 				font-weight: bold;
+			}
+			#content3{
 				max-width: 550px;
 			}
 			#content2{
@@ -141,8 +147,8 @@
 						<a href="">Academics</a>
 						<a href="">Students</a>
 						<a href="">Parents</a>
-						<a href="">Library</a
-						><a href="">Guidance</a>
+						<a href="">Library</a>
+						<a href="">Guidance</a>
 					</tr>
 				</table>
 			</div>
@@ -162,19 +168,21 @@
 					<br>password - your 9 digit OSIS#
 					<hr>
 				</div>
-				<div id="side">
-						LIKE us on <a href="facebook.com">Facebook</a>    
-						FOLLOW us on <a href="twitter.com">Twitter</a>
+				<div id="sidebar">
+					<div id="side">
+							LIKE us on <a href="facebook.com">Facebook</a>    
+							FOLLOW us on <a href="twitter.com">Twitter</a>
 
-					<p id="five">Instructions for logging into:</p>
-					<p id="four"><a href="baysidehighschool.org">E-Chalk</a> (log in above)
-					<a href="pupilpath.com">Pupil Path (pupilpath.com)</a></p>
-					* In <a href="korean.com">Korean</a>
-					<br>* In <a href="chinese.com">Chinese</a>
-					<br>* In <a href="spanish.com">Spanish</a>
-				</div>
-				<div id="side2">
-					<h4>Bayside Publications</h4>
+						<p id="five">Instructions for logging into:</p>
+						<p id="four"><a href="baysidehighschool.org">E-Chalk</a> (log in above)
+						<a href="pupilpath.com">Pupil Path (pupilpath.com)</a></p>
+						* In <a href="korean.com">Korean</a>
+						<br>* In <a href="chinese.com">Chinese</a>
+						<br>* In <a href="spanish.com">Spanish</a>
+					</div>
+					<div id="side2">
+						<h4>Bayside Publications</h4>
+					</div>
 				</div>
 				<div id="content2">
 				
@@ -209,7 +217,7 @@
 				</div>
 				<div id="content3">
 					<a href="cellphone.com">Bayside High School cell phone policy - 3/1/2015</a>
-					
+					<hr>
 				</div>
 				<div id="fourcontent">
 					<br>2015 PTA SAT Classes at Bayside High School
